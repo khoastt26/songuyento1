@@ -11,13 +11,13 @@ function check(a){
 function sum20First(){
     let sum = 0;
     let count = 0;
-    for(let i = 2; ; i++ ){
-        if(check(i)= 1){
+    for(let i = 2;count <= 20 ; i++ ){
+        if(check(i)== 1){
             sum += i;
+            document.write(i + ' ');
             count ++;
         }
-        if(count == 20) 
-        break;      
+        
     }
     document.getElementById('result').innerHTML = sum;
    
